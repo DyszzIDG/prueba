@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelBloom - Your Journey Begins Here</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <a href="index.html" class="logo">🌍 TravelBloom</a>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero / Welcome Section -->
+    <section class="hero">
+        <h1>Explore The World With Us</h1>
+        <p>Discover personalized travel recommendations curated just for you. From serene beaches to ancient temples, your next adventure awaits.</p>
+        
+        <div class="social-icons" style="margin-bottom: 2rem;">
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733558.png" alt="Instagram"></a>
+            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter"></a>
+        </div>
+
+        <button class="btn" onclick="alert('Booking system initialized. Where to?')">Book Now</button>
+
+        <!-- Search Bar -->
+        <div class="search-container">
+            <input type="text" id="searchInput" class="search-input" placeholder="Search for Beaches, Temples, or Countries (e.g. Japan)">
+            <button id="searchBtn" class="btn-search">Search</button>
+            <button id="clearBtn" class="btn-clear">Clear</button>
+        </div>
+        
+        <!-- Results Injection Container -->
+        <div id="results-container">
+            <!-- JavaScript will inject cards here asynchronously -->
+        </div>
+
+    </section>
+
+    <script src="travel_recommendation.js"></script>
+</body>
+</html>

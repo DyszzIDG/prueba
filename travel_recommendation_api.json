@@ -1,0 +1,76 @@
+{
+  "countries": [
+    {
+      "id": 1,
+      "name": "Japan",
+      "cities": [
+        {
+          "id": 101,
+          "name": "Tokyo, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1542051812871-75750082ba62?auto=format&fit=crop&q=80&w=600&h=400",
+          "description": "A bustling metropolis that seamlessly blends ultra-modern neon-lit skyscrapers with historic temples.",
+          "timeZone": "Asia/Tokyo"
+        },
+        {
+          "id": 102,
+          "name": "Kyoto, Japan",
+          "imageUrl": "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?auto=format&fit=crop&q=80&w=600&h=400",
+          "description": "Famed for its classical Buddhist temples, gardens, imperial palaces, and traditional wooden houses.",
+          "timeZone": "Asia/Tokyo"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Brazil",
+      "cities": [
+        {
+          "id": 201,
+          "name": "Rio de Janeiro, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&q=80&w=600&h=400",
+          "description": "A huge seaside city in Brazil, famed for its Copacabana and Ipanema beaches.",
+          "timeZone": "America/Sao_Paulo"
+        },
+        {
+          "id": 202,
+          "name": "São Paulo, Brazil",
+          "imageUrl": "https://images.unsplash.com/photo-1543059080-d9da90212f45?auto=format&fit=crop&q=80&w=600&h=400",
+          "description": "Brazil's vibrant financial center, renowned for its incredible cultural institutions and rich architectural tradition.",
+          "timeZone": "America/Sao_Paulo"
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "id": 1,
+      "name": "Taj Mahal, India",
+      "imageUrl": "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?auto=format&fit=crop&q=80&w=600&h=400",
+      "description": "An immense mausoleum of white marble, built in Agra between 1631 and 1648.",
+      "timeZone": "Asia/Kolkata"
+    },
+    {
+      "id": 2,
+      "name": "Angkor Wat, Cambodia",
+      "imageUrl": "https://images.unsplash.com/photo-1560639890-e794323c28af?auto=format&fit=crop&q=80&w=600&h=400",
+      "description": "A gigantic temple complex in Cambodia, originally constructed as a Hindu temple for the Khmer Empire.",
+      "timeZone": "Asia/Phnom_Penh"
+    }
+  ],
+  "beaches": [
+    {
+      "id": 1,
+      "name": "Bora Bora, French Polynesia",
+      "imageUrl": "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=600&h=400",
+      "description": "A small South Pacific island famous for its luxury resorts and beautiful beaches.",
+      "timeZone": "Pacific/Tahiti"
+    },
+    {
+      "id": 2,
+      "name": "Navagio Beach, Greece",
+      "imageUrl": "https://images.unsplash.com/photo-1629853922650-6a7bd92eb1ba?auto=format&fit=crop&q=80&w=600&h=400",
+      "description": "An exposed cove on the coast of Zakynthos, renowned for its crystal clear water and a shipwreck.",
+      "timeZone": "Europe/Athens"
+    }
+  ]
+}
