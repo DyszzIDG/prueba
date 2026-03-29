@@ -44,11 +44,11 @@ function handleSearch() {
             let results = [];
 
             // Pattern Matching based on keywords
-            if (input.includes('beach')) {
+            if (input.includes('beach') || input.includes('playa')) {
                 results = data.beaches;
-            } else if (input.includes('temple')) {
+            } else if (input.includes('temple') || input.includes('templo')) {
                 results = data.temples;
-            } else if (input.includes('countr')) {
+            } else if (input.includes('countr') || input.includes('país') || input.includes('pais')) {
                 // Consolidate all cities from all countries
                 data.countries.forEach(country => {
                     results = results.concat(country.cities);
